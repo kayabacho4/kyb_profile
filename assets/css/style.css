@@ -9,6 +9,14 @@ canvas { display:block; }
   color: white;
 }
 
-.icons {
-  filter: brightness(1) invert(0);
+.icons-twitter {
+  position:fixed;
+  bottom:10px;
+  right:10px;
+ }
+
+ .icons-github {
+  position:fixed;
+  bottom:10px;
+  right:50px;
  }

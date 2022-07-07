@@ -172,7 +172,7 @@ let Tree = (x, y, z, h) => {
 function setup() {
   pixelDensity(1);
   createCanvas();
-  colorMode(HSB, 1, 1, 1);
+  colorMode(HSB, random(0.1, 1.5), random(0.1, 1.5), random(0.1, 1.5));
   strokeJoin(ROUND);
   windowResized();
 }
@@ -306,6 +306,10 @@ let updateCamera = () => {
 function mouseDragged() {
   mX = -movedX / 100;
   mY = movedY / 100;
+}
+
+function touchMoved(evt) {
+  evt.preventDefault();
 }
 
 let keys = {};
