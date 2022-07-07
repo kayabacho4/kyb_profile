@@ -183,8 +183,8 @@ let v3 = (x, y, z) => new Vec3(x, y, z);
 let l3 = (p1, p2, c) => new Line(p1, p2, c);
 let rPoint = (n) => v3(r(n), r(n), r(n));
 
-let rows = 20;
-let cols = 20;
+let rows = 35;
+let cols = 40;
 let gridSize = 1000;
 
 let init = () => {
